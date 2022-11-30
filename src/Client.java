@@ -1,5 +1,5 @@
 /**
- * @author George McMullen x Jada Senebouttarath
+ * @author --> PUT YOUR NAME HERE <---
  * @version 1.0
  * Client.java
  */
