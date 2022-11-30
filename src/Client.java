@@ -8,24 +8,13 @@ import java.util.*;
 
 public class Client {
 
-    public static void main(String[] args) {
-        // Using try to catch errors if user doesn't input INT
-        try {
-            // Creating scanner
-            Scanner scanner = new Scanner(System.in);
-            System.out.println("Enter an amount to withdraw ($1000 max)");
-            // Saving user input as INT
-            int amount = scanner.nextInt();
-            // Validating INT is valid
-            if (isValidAmount(amount)) {
-                // Actually call withdraw
-                ATM.withdraw(new Money(amount));
-            }
-        } catch(Exception e) {
-            // Error in case user input isn't an INT
-            System.out.println("Please enter a number");
-        }
-    }
+    // TO-DO:
+    // ------
+    // Write a main method for:
+    //     Getting the user's input
+    //     Validating it's an INT
+    //     Sending it to our handler
+
 
     // Method for validation
     private static boolean isValidAmount(int amountEntered) {
